@@ -1,0 +1,28 @@
+body{
+	background-color: lightcyan;
+	font-family: 'Lato', sans-serif;
+}
+a{
+	text-decoration: none;
+	color: darkslategray;
+}
+.horizontal-menu{
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+}
+.nav-choices .nav-choice{
+	padding-right: 1em;
+}
+#header-img{
+	height: 100px;
+	width: 150px;
+}
+@media only screen and (max-width: 500px) {
+    .horizontal-menu {
+        flex-direction:column;
+    }
+    .nav-choices{
+        padding-top: 1em;
+    }
+}
